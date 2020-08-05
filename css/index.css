@@ -9,6 +9,10 @@ html{
 
 
 
+.text-uppercase{
+  margin-top: 30%;
+}
+
 .text-small {
   font-size: 100%;
 }
@@ -163,7 +167,7 @@ a.text-white-link:active {
 
 .hcolor{
   color: #ca7968;
-  margin-top: 10px;
+  margin-top: 25%;
   
   
 }
