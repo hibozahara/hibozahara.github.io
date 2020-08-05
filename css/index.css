@@ -1,0 +1,329 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    /*scroll-behavior: smooth; */
+}
+
+
+.text-small {
+  font-size: 100%;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+
+
+#about > div > div:nth-child(2) > div:nth-child(3) > p.text-faded.no-margin {
+    margin-bottom: 0;
+}
+#about > div > div:nth-child(2) > div:nth-child(4) > p.text-faded.no-margin {
+  margin-bottom: 0;
+}
+
+
+.text-blue {
+  color: blue;
+  border-bottom: 1px solid currentColor;
+}
+  
+.text-white-link {
+  color: white;
+  border-bottom: 1px solid currentColor;
+}
+
+/* Link color when it is unvisited */
+a.text-blue:link  {
+  color: blue;
+  border-bottom: 1px solid currentColor;
+}
+a.text-white-link:link  {
+  color: white;
+  border-bottom: 1px solid currentColor;
+}
+
+/* Link color after being clicked on and visited */
+a.text-blue:visited {
+  color: blue;
+  border-bottom: 1px solid currentColor;
+}
+a.text-white-link:visited {
+  color: white;
+  border-bottom: 1px solid currentColor;
+}
+
+/* Link color while being hovered on */
+a.text-blue:hover {
+  color: blue;
+  border-bottom: 1px solid currentColor;
+  text-decoration: none;
+}
+a.text-white-link:hover {
+  color: blue;
+  border-bottom: 1px solid currentColor;
+  text-decoration: none;
+}
+
+/* Link color the moment it is clicked */
+a.text-blue:active {
+  color: blue;
+  border-bottom: 1px solid currentColor;
+}
+a.text-white-link:active {
+  color: white;
+  border-bottom: 1px solid currentColor;
+}
+
+.min-padding {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.min-padding-top {
+  padding-top: 2em;
+  padding-bottom: 0em;
+}
+
+
+.div-padding-fix {
+  padding-bottom: 2em;
+}
+
+/* Adding some background color options */
+.bg-green {
+	/* Spotify Green - hex code from: https://brandpalettes.com/spotify-color-codes/ */
+	background-color: #1DB954 !important;
+}
+
+/* Black button to go with the Spotify Green. The active/focus/etc stuff is for when you
+   hover / click on the button. */
+.btn-black {
+	color: #fff;
+	background-color: #000000 !important;
+}
+.btn-black:active, .btn-black:focus, .btn-black:hover {
+	color: #fff;
+	background-color: #262626 !important;
+}
+.btn-black:active, .btn-black:focus {
+	box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important;
+}
+
+/* Black hrefs & hrs too */
+.href-black {
+	color: #000000;
+}
+.hr-black {
+	border-color: #fff;
+	color: #fff;
+}
+
+/* 	Vertically center the images on the "Fun Stuff" section
+		https://stackoverflow.com/a/37163431
+*/
+.images-vcenter {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+/* 	Add border to the images on the "Fun Stuff" section 
+		https://www.w3schools.com/csS/css3_images.asp
+*/
+.images-border {
+	border: .5em solid #000000;
+	border-radius: 3em;
+}
+
+.images-border-skiing {
+	border: .5em solid #000000;
+	border-radius: 50%;
+}
+
+/* Rtn Red Color */
+.RtnRed {
+	color: #E61231 !important;
+	font-weight: bold;
+}
+
+.hr-line{
+  background-color: purple;
+  height: -50px;
+  border: 1px;
+  margin-top: -250px;
+  margin-bottom: 250.5px;
+
+}
+
+
+.hcolor{
+  color: #ca7968;
+  margin-top: 10px;
+  
+  
+}
+
+
+.hital{
+  color:#FFF;
+  font-style: italic;
+}
+
+
+  strong {
+    font-weight: bold;
+    color: #FFF;
+    
+  }
+
+
+
+
+  /* #particles-js {
+    background-color: #b61924;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  #overlay {
+    position: relative;
+    padding: 50px;
+  } */
+
+
+  
+body{margin-top:20px;}
+
+/* =Jumbotron Main
+-------------------------------------------------------------- */
+.jumbotron.jumbotron-main {
+    height: 100%;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	padding-top: 0;
+	padding-bottom: 0;
+	position: relative;
+	margin:0;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  /*background-image: url(""); */
+  background: url("img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100% 100%;
+/*	background: #6819e8; /* Old browsers */
+	background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); /* FF3.6-15 */
+/*	background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
+/*	background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+/*  background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
+/*  background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+/*background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%); */
+
+/*background-color: #ffa69e;
+background: linear-gradient(215deg, #ffa69e 0%, #5d4954 74%); */
+
+
+background-color: #ca7968;
+background-image: linear-gradient(315deg, #ca7968 0%, #0c0c0c 74%);
+
+/*background-color: #eb7d67; */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 ); /* IE6-9 */
+
+
+
+}
+
+.jumbotron.jumbotron-main hr {
+	border-width: 1px 0px;
+    border-style: dotted none;
+    border-color: rgba(255, 255, 255, 0.35);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    width: 49px;
+    height: 4px;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+.jumbotron.jumbotron-main a {
+    color: #fff;
+}
+
+.center-vertically {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.center-vertically-holder {
+	display: table;
+	height: 100%;
+}
+
+.scroll-indicator {
+	padding-top:6px;
+    display: inline-block;
+    width: 50px;
+}
+
+.arrow-scroll-indicator {
+	font-size: 10px;
+	color: rgba(255, 255, 255, 0.60);
+}
+
+.parallax-window {
+    background: transparent;
+}
+.home-area{
+  margin-top: -20px;
+  height: 100vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.days{
+  margin-top: -10px;
+  color: #ca7968;
+  font-weight: lighter;
+}
+
+.loc{
+  margin-top: -10px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.locx{
+  margin-top: 0px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.project-name{
+  margin-top: 0px;
+  font-weight: bolder;
+  color: #FFF;
+}
+
