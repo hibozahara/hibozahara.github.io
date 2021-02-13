@@ -1,2 +1,2 @@
 # hibozahara.github.io
-Personal Website 
+Personal Website viewable at http://hibozahara.me/
